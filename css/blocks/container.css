@@ -1,0 +1,18 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(circle, rgba(203,201,201,1) 13%, rgba(207,207,208,1) 49%, rgba(209,212,211,1) 79%, rgba(192,78,249,0.9500175070028011) 100%);
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 0 16px;
+    }
+}

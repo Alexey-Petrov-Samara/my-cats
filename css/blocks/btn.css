@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 6px 10px;
+    gap: 10px;
+    border: none;
+    background-color: #300231;
+    color: #f8f7f7;
+    box-shadow: 0 0 12px 0 rgb(59, 54, 54);
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
